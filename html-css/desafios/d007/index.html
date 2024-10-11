@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="media/favicon.ico" type="image/x-icon">
+    <title>Flexible Image</title>
+</head>
+<body>
+    <center>
+        <h1>FLEXIBLE IMAGE</h1>
+        <p>Do you see the whole image? Try to enlarge the window size to enjoy the full experience &#x1f92f;</p>
+        <picture>
+            <source media="(max-width: 600px)" width="500px" srcset="media/wallpaper3.jpg" type="image/jpg">
+            <source media="(max-width: 1100px)" width="1100px" srcset="media/wallpaper2.jpg" type="image/jpg">
+            <img src="media/wallpaper.jpg" width="1400px" alt="Flexible Gabigol">
+        </picture>
+    </center>
+    
+</body>
+    <style>
+        body {
+            background-color: rgb(255, 253, 222);
+        }
+    </style>
+</html>
